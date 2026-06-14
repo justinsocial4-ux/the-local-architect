@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environment created by setup.sh
+.venv/
+
+# Engine session store (created at runtime)
+.fable_method/
+
+# Packaging artifacts
+*.zip
+
+# OS
+.DS_Store

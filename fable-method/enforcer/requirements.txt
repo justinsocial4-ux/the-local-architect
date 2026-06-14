@@ -1,0 +1,19 @@
+# Fable Method Enforcer — Python dependencies
+#
+# The engine (engine.py, profiles.py) has ZERO third-party dependencies.
+# Everything below is optional: install only what you need.
+
+# ── MCP server ─────────────────────────────────────────────────────────────
+# Required only if you are running mcp_server.py.
+mcp
+
+# ── LLM provider SDKs (all optional) ──────────────────────────────────────
+# The CLI harness and provider adapters fall back to raw urllib HTTP calls
+# if these are not installed.  Install whichever provider you plan to use.
+
+# openai          # pip install openai
+# anthropic       # pip install anthropic
+# google-generativeai  # pip install google-generativeai
+
+# ── Development / testing ──────────────────────────────────────────────────
+# pytest          # pip install pytest

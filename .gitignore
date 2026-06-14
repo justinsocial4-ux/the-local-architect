@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+
+# Engine runtime store
+.fable_method/
+
+# Packaging artifacts
+*.zip
+
+# OS
+.DS_Store
